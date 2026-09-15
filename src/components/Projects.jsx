@@ -26,6 +26,14 @@ const projectsData = [
     github: 'https://github.com/Giridhar-J-28/Movie-Recommendation-System-',
     gradient: 'linear-gradient(135deg, rgba(168,85,247,0.2) 0%, rgba(236,72,153,0.2) 100%)',
   },
+  {
+    title: 'Python Local HTTP Server',
+    category: 'Backend / Networking',
+    tags: ['Python 3', 'HTTP', 'CasaOS', 'Networking'],
+    description: 'A Python-based HTTP server** hosted on CasaOS and running in a Docker container** for isolated deployment. It listens on port 3000, handles HTTP requests, and serves static files like HTML, CSS, JavaScript, and images. CasaOS provides an easy interface to manage and access the portfolio over the local network.',
+    github: 'https://github.com/Giridhar-J-28',
+    gradient: 'linear-gradient(135deg, rgba(234,179,8,0.2) 0%, rgba(249,115,22,0.2) 100%)',
+  },
 ];
 
 export default function Projects() {

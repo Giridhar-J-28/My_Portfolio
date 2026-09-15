@@ -47,7 +47,7 @@ export default function About() {
             <div className="about-stats">
               {[
                 { number: '2', label: 'Years Experience' },
-                { number: '3', label: 'Projects Completed' },
+                { number: '4', label: 'Projects Completed' },
                 { number: '100%', label: 'Commitment Rate' },
               ].map(({ number, label }) => (
                 <div key={label} className="stat-card">
