@@ -811,6 +811,11 @@ ul { list-style: none; }
   grid-template-columns: repeat(3, 1fr);
   gap: 1.75rem;
 }
+@media (min-width: 1025px) {
+  .projects-grid .project-card:nth-child(4):last-child {
+    grid-column: 2;
+  }
+}
 .project-card {
   background: var(--bg-glass);
   backdrop-filter: blur(14px);
