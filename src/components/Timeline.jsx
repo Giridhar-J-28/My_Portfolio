@@ -38,7 +38,7 @@ export default function Timeline() {
             My Timeline
           </div>
           <h2 className="section-title">
-            Professional <span className="gradient-text">Experience</span>
+            Co-Curricular <span className="gradient-text">Activities</span>
           </h2>
           <div className="section-divider" />
         </div>

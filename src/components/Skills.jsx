@@ -38,7 +38,7 @@ const skillCategories = [
     icon: <Shield size={24} style={{ color: 'var(--accent-2)' }} />,
     description: 'Developing intelligent systems using modern ML frameworks and libraries.',
     skills: [
-      { name: 'TensorFlow', level: 75 },
+      { name: 'TensorFlow', level: 70 },
       { name: 'PyTorch', level: 72 },
       { name: 'scikit-learn', level: 78 },
       { name: 'NumPy & Pandas', level: 85 },
@@ -52,9 +52,8 @@ const skillCategories = [
     description: 'Leveraging industry-standard tools for development, deployment, and collaboration.',
     skills: [
       { name: 'Git & GitHub', level: 85 },
-      { name: 'Docker', level: 70 },
+      { name: 'Docker', level: 75 },
       { name: 'AWS', level: 65 },
-      { name: 'Pygame', level: 68 },
     ],
   },
 ];

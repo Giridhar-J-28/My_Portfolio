@@ -37,7 +37,7 @@ export default function Hero() {
         <div className="hero-grid">
           {/* ── Left column ── */}
           <div className="fade-up">
-<h1 className="hero-h1">
+            <h1 className="hero-h1">
               Hi, I'm <span className="gradient-text">Giridhar Jambunathan</span>
             </h1>
 
@@ -91,7 +91,7 @@ export default function Hero() {
                   <span className="code-filename">portfolio.jsx</span>
                 </div>
                 <div><span className="code-keyword">const </span><span className="code-var">giridhar</span><span className="code-line"> = &#123;</span></div>
-                <div className="code-indent"><span className="code-line">skills: [</span><span className="code-string">'Python'</span><span className="code-line">, </span><span className="code-string">'React'</span><span className="code-line">, </span><span className="code-string">'ML'</span><span className="code-line">],</span></div>
+                <div className="code-indent"><span className="code-line">skills: [</span><span className="code-string">'Python'</span><span className="code-line">, </span><span className="code-string">'Js'</span><span className="code-line">, </span><span className="code-string">'ML'</span><span className="code-line">],</span></div>
                 <div className="code-indent"><span className="code-line">focus: </span><span className="code-string">'AI/ML Solutions'</span><span className="code-line">,</span></div>
                 <div className="code-indent"><span className="code-line">passionate: </span><span className="code-bool">true</span></div>
                 <div><span className="code-line">&#125;;</span></div>
