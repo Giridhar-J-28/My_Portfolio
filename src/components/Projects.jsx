@@ -7,7 +7,7 @@ const projectsData = [
     category: 'AI & ML',
     tags: ['Python', 'React', 'Node.js', 'OCR', 'NLP'],
     description: 'A digital document repository where users can upload PDFs or images such as bills or government notices. The system extracts text, identifies document type, translates it, and generates a concise summary. (Ongoing)',
-    github: 'https://github.com/Giridhar-J-28',
+    github: 'https://github.com/Giridhar-J-28/SafeKeep.git',
     gradient: 'linear-gradient(135deg, rgba(139,92,246,0.2) 0%, rgba(99,102,241,0.2) 100%)',
   },
   {
