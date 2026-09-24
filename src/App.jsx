@@ -5,6 +5,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Timeline from './components/Timeline';
+import Certificates from './components/Certificates';
 
 export default function App() {
   useEffect(() => {
@@ -28,7 +29,7 @@ export default function App() {
       });
     }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
 
-    const hiddenElements = document.querySelectorAll('.section-header, .project-card, .skill-card, .exp-item, .about-text, .stat-card, .tab-panel');
+    const hiddenElements = document.querySelectorAll('.section-header, .project-card, .skill-card, .exp-item, .about-text, .stat-card, .tab-panel, .cert-card');
     hiddenElements.forEach((el) => {
       el.classList.add('reveal');
       observer.observe(el);
@@ -50,6 +51,7 @@ export default function App() {
         <Timeline />
         <Skills />
         <Projects />
+        <Certificates />
       </main>
 
       <footer className="footer" style={{ padding: '1.5rem 2rem', maxWidth: 1200, margin: '0 auto', width: '100%', justifyContent: 'center' }}>
