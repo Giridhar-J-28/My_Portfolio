@@ -104,8 +104,13 @@ export default function About() {
                     <div className="tab-content-title">Academic Background</div>
                     <div className="timeline-list">
                       <div className="timeline-item">
-                        <div className="timeline-period">2022 – Ongoing</div>
-                        <div className="timeline-degree">B.E in Information Technology</div>
+                        <div className="timeline-period">2026 – Ongoing</div>
+                        <div className="timeline-degree">MSc Advanced Computer Science (Artificial Intelligence)</div>
+                        <div className="timeline-school">University of Leeds</div>
+                      </div>
+                      <div className="timeline-item">
+                        <div className="timeline-period">2022 – 2026</div>
+                        <div className="timeline-degree">B.E in Information Technology (CGPA: 7.35)</div>
                         <div className="timeline-school">St. Francis Institute of Technology</div>
                       </div>
                       <div className="timeline-item">
