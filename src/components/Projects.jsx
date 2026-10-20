@@ -11,14 +11,6 @@ const projectsData = [
     gradient: 'linear-gradient(135deg, rgba(139,92,246,0.2) 0%, rgba(99,102,241,0.2) 100%)',
   },
   {
-    title: 'Codewhiz',
-    category: 'Python',
-    tags: ['Python', 'Pygame', 'Quiz Engine', 'Education'],
-    description: 'A Python-based educational tool designed for beginners to learn programming through interactive challenges and fill-in-the-blank exercises. Gamifies learning to make programming concepts easier and engaging.',
-    github: 'https://github.com/Giridhar-J-28',
-    gradient: 'linear-gradient(135deg, rgba(6,182,212,0.2) 0%, rgba(20,184,166,0.2) 100%)',
-  },
-  {
     title: 'Recommendation System',
     category: 'AI & ML',
     tags: ['Python', 'scikit-learn', 'Pandas', 'NumPy', 'NLP'],
