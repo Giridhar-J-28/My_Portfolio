@@ -19,6 +19,14 @@ const projectsData = [
     gradient: 'linear-gradient(135deg, rgba(168,85,247,0.2) 0%, rgba(236,72,153,0.2) 100%)',
   },
   {
+    title: 'Rice Type Classification',
+    category: 'AI & ML',
+    tags: ['Python', 'PyTorch', 'scikit-learn', 'Pandas', 'Matplotlib'],
+    description: 'A binary classifier built in PyTorch that predicts the variety of a rice grain from 10 shape measurements across 18,000+ samples. Includes data cleaning, feature normalisation, a train/validation/test split, a custom Dataset and DataLoader pipeline, and a compact neural network trained with BCE loss and Adam, achieving 98.75% test accuracy.',
+    github: 'https://github.com/Giridhar-J-28',
+    gradient: 'linear-gradient(135deg, rgba(16,185,129,0.2) 0%, rgba(20,184,166,0.2) 100%)',
+  },
+  {
     title: 'Python Local HTTP Server',
     category: 'Backend / Networking',
     tags: ['Python 3', 'HTTP', 'CasaOS', 'Networking'],
