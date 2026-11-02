@@ -27,6 +27,14 @@ const projectsData = [
     gradient: 'linear-gradient(135deg, rgba(16,185,129,0.2) 0%, rgba(20,184,166,0.2) 100%)',
   },
   {
+    title: 'Animal Face Classification',
+    category: 'AI & ML',
+    tags: ['Python', 'PyTorch', 'CNN', 'scikit-learn', 'Matplotlib'],
+    description: 'An image classifier built in PyTorch that sorts animal face photos from the AFHQ dataset into cat, dog or wild. Includes an end-to-end pipeline with image loading, label encoding, resizing to 128×128, a custom Dataset and DataLoader, and a three-block CNN trained with cross-entropy loss and Adam on Apple Silicon (MPS), achieving 94.6% test accuracy.',
+    github: 'https://github.com/Giridhar-J-28',
+    gradient: 'linear-gradient(135deg, rgba(59,130,246,0.2) 0%, rgba(6,182,212,0.2) 100%)',
+  },
+  {
     title: 'Python Local HTTP Server',
     category: 'Backend / Networking',
     tags: ['Python 3', 'HTTP', 'CasaOS', 'Networking'],
